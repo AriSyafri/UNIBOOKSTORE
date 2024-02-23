@@ -29,7 +29,7 @@
 
 <html>
     <head>
-        <title>Menambah Buku</title>
+        <title>Mengubah Buku</title>
         <link rel="stylesheet" href="style/style.css">
     </head>
 
@@ -44,7 +44,7 @@
 
         
         <div class="container">
-            <h2>Menambah Buku</h2>
+            <h2>Mengubah Buku</h2>
             <form action = "" method = "post">
 
                 <input type="hidden" id="idBuku" name="idBuku" value="<?= $bk["idBuku"]; ?>">
