@@ -61,9 +61,10 @@ if (isset($_POST["cariBuku"])) {
                         <td><?= $row["penerbit"]?></td>
 
                         <td style="text-align: center;">
-                            <button onclick="document.location='ubahBuku.php?idBuku=<?= $row['idBuku']; ?>'">Ubah</button>
-                            <button onclick="document.location='hapusBuku.php?idBuku=<?= $row['idBuku']; ?>'">Hapus</button>
-                            
+                            <a class="buttonUbah" href="ubahBuku.php?idBuku=<?= $row['idBuku']; ?>">Ubah</a>
+                            <a class="buttonHapus" href="hapusBuku.php?idBuku=<?= $row['idBuku']; ?>" onclick="return confirm('yakin?');"> Hapus</a>
+
+
                         </td>
                     </tr>
                 <?php endforeach; ?>
@@ -104,9 +105,8 @@ if (isset($_POST["cariBuku"])) {
                     <td><?= $row["telepon"]?></td>
 
                     <td style="text-align: center;">
-                            <button onclick="document.location='ubahPenerbit.php?idpenerbit=<?= $row['idpenerbit']; ?>'">Ubah</button>
-                            <button onclick="document.location='hapusPenerbit.php?idpenerbit=<?= $row['idpenerbit']; ?>'">Hapus</button>
-                            
+                            <a class="buttonUbah" href="ubahPenerbit.php?idpenerbit=<?= $row['idpenerbit']; ?>">Ubah</a>
+                            <a class="buttonHapus" href="hapusPenerbit.php?idpenerbit=<?= $row['idpenerbit']; ?>" onclick="return confirm('yakin?');"> Hapus</a>
                     </td>
                 </tr>
             <?php endforeach; ?>
