@@ -22,3 +22,40 @@ li a:hover {
     background-color: #111;
 }
 
+
+table.center {
+    margin-left: auto; 
+    margin-right: auto;
+}
+/* penutup tabel */
+
+.container {
+    padding-top: 50px;
+}
+
+
+.buttonUbah {
+    background-color: #04AA6D;
+    border: none;
+    color: white;
+    padding: 10px 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+
+  .buttonHapus {
+    background-color: #f44336;
+    border: none;
+    color: white;
+    padding: 10px 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
