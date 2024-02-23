@@ -22,20 +22,3 @@ li a:hover {
     background-color: #111;
 }
 
-
-/* tabel */
-table, th, td {
-    border: 1px solid black;
-    border-collapse: collapse;
-}
-
-table.center {
-    margin-left: auto; 
-    margin-right: auto;
-}
-/* penutup tabel */
-
-.container {
-    padding-top: 50px;
-}
-
