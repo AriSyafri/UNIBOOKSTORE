@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Feb 23, 2024 at 09:20 PM
+-- Generation Time: Feb 24, 2024 at 10:12 AM
 -- Server version: 10.4.22-MariaDB
 -- PHP Version: 8.2.10
 
@@ -48,7 +48,8 @@ INSERT INTO `buku` (`idBuku`, `kategori`, `namaBuku`, `harga`, `stok`, `penerbit
 ('K2003', 'Keilmuan', 'Autocad 3 Dimensi', 40000, 25, 'Penerbit Informatika'),
 ('K3004', 'Keilmuan', 'Cloud Computing Technology', 85000, 15, 'Penerbit Informatika'),
 ('N1001', 'Novel', 'Cahaya Di Penjuru Hati', 68000, 10, 'Andi Offset'),
-('N1002', 'Novel', 'Aku Ingin Cerita', 48000, 12, 'Danendra');
+('N1002', 'Novel', 'Aku Ingin Cerita', 48000, 12, 'Danendra'),
+('SJ006', 'Sejarah', 'Sejarah Budaya', 60000, 3, 'Andi Offset');
 
 -- --------------------------------------------------------
 
