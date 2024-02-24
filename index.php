@@ -65,38 +65,6 @@ if (isset($_POST["cariBuku"])) {
                 </tbody>
                 </table>
 
-                <br>
-                <h2><center>Tabel Penerbit</center></h2>
-                <table border="3" class="center">
-                <thead>
-                    <tr>
-                        <th>ID Penerbit</th>
-                        <th>Nama</th>
-                        <th>Alamat</th>
-                        <th>Kota</th>
-                        <th>Telepon</th>
-                    </tr>
-                </thead>
-                
-                <tbody>
-                <?php $i = 0; ?>
-                    <?php foreach($penerbit as $row) : ?>
-                    <?php $i++; ?>
-                    <tr>
-                        <td><?= $row["idpenerbit"]?></td>
-                        <td><?= $row["nama"]?></td>
-                        <td><?= $row["alamat"]?></td>
-                        <td><?= $row["kota"]?></td>
-                        <td><?= $row["telepon"]?></td>
-                    </tr>
-                <?php endforeach; ?>
-
-                </tbody>
-
-
-
-                </table>
-
         </div>
 
         

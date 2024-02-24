@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Feb 23, 2024 at 04:42 PM
+-- Generation Time: Feb 23, 2024 at 09:20 PM
 -- Server version: 10.4.22-MariaDB
 -- PHP Version: 8.2.10
 
@@ -41,10 +41,14 @@ CREATE TABLE `buku` (
 --
 
 INSERT INTO `buku` (`idBuku`, `kategori`, `namaBuku`, `harga`, `stok`, `penerbit`) VALUES
-('DS60', 'Teknologi', 'Data Science', 20000, 15, 'Informatika'),
-('K1001', 'Keilmuan', 'Analisis & Perancangan Sistem Informasi', 50000, 60, 'Penerbit Informatika'),
+('B1001', 'Bisnis', 'Bisnis Online', 75000, 9, 'Penerbit Informatika'),
+('B1002', 'Bisnis', 'Etika Bisnis dan Tanggung Jawab Sosial', 67500, 20, 'Penerbit Informatika'),
+('K1001', 'Keilmuan', 'Analisis &amp; Perancangan Sistem Informasi', 50000, 60, 'Penerbit Informatika'),
 ('K1002', 'Keilmuan', 'Artificial Intelligence', 45000, 60, 'Penerbit Informatika'),
-('K2003', 'Keilmuan', 'Autocad 3 Dimensi', 40000, 25, 'Penerbit Informatika');
+('K2003', 'Keilmuan', 'Autocad 3 Dimensi', 40000, 25, 'Penerbit Informatika'),
+('K3004', 'Keilmuan', 'Cloud Computing Technology', 85000, 15, 'Penerbit Informatika'),
+('N1001', 'Novel', 'Cahaya Di Penjuru Hati', 68000, 10, 'Andi Offset'),
+('N1002', 'Novel', 'Aku Ingin Cerita', 48000, 12, 'Danendra');
 
 -- --------------------------------------------------------
 
@@ -65,10 +69,9 @@ CREATE TABLE `penerbit` (
 --
 
 INSERT INTO `penerbit` (`idpenerbit`, `nama`, `alamat`, `kota`, `telepon`) VALUES
-('rie', 'Penerbit Ari', 'Jl Subang', 'Subang', '08994444'),
-('SP01', 'Penerbit Informatika', 'Jl. Buah Batu No 121', 'Bandung', '081322201946'),
+('SP01', 'Penerbit Informatika', 'Jl. Buah Batu No. 121', 'Bandung', '081322201946'),
 ('SP02', 'Andi Offset', 'Jl Suryalaya IX No.3', 'Bandung', '087839030688'),
-('SP03', 'Danendra', 'Jl MochToha 44', 'Bandung', '0225201215');
+('SP03', 'Danendra', 'Jl Moch. Toha 44', 'Bandung', '0225201215');
 
 --
 -- Indexes for dumped tables
